@@ -155,10 +155,13 @@ body{
     transition: 0.5s;
 
     cursor: pointer;
+
+    z-index: 3;
 }
 .container .card .contentbx .size span:hover
 {   
     background: #9bdc28;
+    transition: 0.5s;
 }
 .container .card .contentbx .color span{
     width: 20px;
